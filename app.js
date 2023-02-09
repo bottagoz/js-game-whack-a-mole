@@ -3,7 +3,7 @@ const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
-
+console.log(startButton);
 let lastHole;
 let timeUp = false;
 let timeLimit = 20000;
